@@ -1,0 +1,40 @@
+<eventData>
+	<event>
+		<eventTitle>Radio Show # 2</eventTitle>
+		<day>Wednesday</day>
+	  <!--start times and end times must be in minutes, for example, 10:30AM would be 630 minutes-->
+		<starttime>1080</starttime>
+		<endtime>1400</endtime>
+	  <!--eventTime value is for display values in HTML-->
+		<eventTime>6pm to 11:20pm</eventTime>
+		<eventPic>2.jpg</eventPic>
+		<eventInfo>This is a show on the radio, Alex and John play music</eventInfo>
+	</event>
+	<event>
+		<eventTitle>Radio Show # 1</eventTitle>
+		<day>Thursday</day>
+		<starttime>540</starttime>
+		<endtime>630</endtime>
+	  <!--eventTime value is for display values in HTML-->
+		<eventTime>9:00AM-10:30AM</eventTime>
+		<eventPic>1.jpg</eventPic>
+		<eventInfo>This is a show on the radio, Alex plays music</eventInfo>
+	</event>
+	<event>
+		<eventTitle>Radio Show # 3</eventTitle>
+		<day>Thursday</day>
+		<starttime>720</starttime>
+		<endtime>840</endtime>
+	  <!--eventTime value is for display values in HTML-->
+		<eventTime>12:00PM-2:00PM</eventTime>
+		<eventPic>3.jpg</eventPic>
+		<eventInfo>This is a show on the radio, John plays music</eventInfo>
+	</event>
+<!--Default case.  One must be made.-->
+	<defaultEvent>
+		<dtitle>Overnight Shuffle</dtitle>
+		<dEventTime>Off the air</dEventTime>
+		<dEventPic>default.jpg</dEventPic>
+		<dInfo>No one is on air right now, so the overnight shuffle is playing!</dInfo>
+	</defaultEvent>
+</eventData>

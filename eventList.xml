@@ -1,0 +1,21 @@
+<!--blank XML sheet setup for unmodified script.  just create new <event> blocks for each additional event-->
+<eventData>
+	<event>
+		<eventTitle></eventTitle>
+		<day></day>
+	  <!--start times and end times must be in minutes, for example, 10:30AM would be 630 minutes-->
+		<starttime></starttime>
+		<endtime></endtime>
+	  <!--eventTime value is for display values in HTML-->
+		<eventTime></eventTime>
+		<eventPic></eventPic>
+		<eventInfo></eventInfo>
+	</event>
+<!--Default case.  One must be made, only one can exist-->
+	<defaultEvent>
+		<dtitle> </dtitle>
+		<dEventTime></dEventTime>
+		<dEventPic></dEventPic>
+		<dInfo></dInfo>
+	</defaultEvent>
+</eventData>
